@@ -1,4 +1,5 @@
 node_modules
 .vitest
 .vitest-attachments
-
+.env
+build-archive.log
