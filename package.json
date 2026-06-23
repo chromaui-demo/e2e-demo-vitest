@@ -1,0 +1,29 @@
+{
+  "name": "@chromatic-com/e2e-demo-vitest",
+  "version": "1.0.0",
+  "description": "Showcases a real-world demo of E2E Visual Tests with Chromatic and Vitest",
+  "private": true,
+  "license": "MIT",
+  "packageManager": "pnpm@11.8.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "test": "vitest",
+    "preview": "archive-storybook",
+    "chromatic": "chromatic --vitest --project-token=$CHROMATIC_PROJECT_TOKEN"
+  },
+  "devDependencies": {
+    "@chromatic-com/vitest": "latest",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^6",
+    "@vitest/browser-playwright": "latest",
+    "chromatic": "^17",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "sass-embedded": "^1.100.0",
+    "vite": "^8",
+    "vitest": "latest",
+    "vitest-browser-react": "2.1.0"
+  }
+}
