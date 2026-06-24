@@ -29,6 +29,9 @@ jobs:
       - name: Run tests
         run: pnpm run test
 
+      - name: Test Storybook
+        run: pnpm test:storybook
+
       - name: Run Chromatic tests
         uses: chromaui/action@latest
         with:

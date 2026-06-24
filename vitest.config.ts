@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [react(), chromaticPlugin()],
 
   test: {
+    dir: "src",
     browser: {
       enabled: true,
       headless: true,

@@ -3,7 +3,8 @@
     "jsx": "react-jsx",
     "module": "ESNext",
     "target": "esnext",
-    "moduleResolution": "bundler"
+    "moduleResolution": "bundler",
+    "types": ["node"]
   },
-  "include": ["src", "vitest.config.ts"]
+  "include": ["src", "e2e", "vitest.config.ts"]
 }

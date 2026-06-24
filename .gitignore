@@ -3,3 +3,5 @@ node_modules
 .vitest-attachments
 .env
 build-archive.log
+storybook-static
+test-results
