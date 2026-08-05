@@ -5,6 +5,7 @@ export default defineConfig({
   testDir: import.meta.dirname,
   use: {
     baseURL: "http://localhost:6006",
+    channel: "chrome",
   },
   webServer: {
     command: "pnpm archive-storybook --port 6006",
