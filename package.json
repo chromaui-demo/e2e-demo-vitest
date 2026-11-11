@@ -1,10 +1,9 @@
 {
   "name": "@chromatic-com/e2e-demo-vitest",
   "version": "1.0.0",
-  "description": "Showcases a real-world demo of E2E Visual Tests with Chromatic and Vitest",
   "private": true,
+  "description": "Showcases a real-world demo of E2E Visual Tests with Chromatic and Vitest",
   "license": "MIT",
-  "packageManager": "pnpm@10.33.4",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -23,7 +22,7 @@
     "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react": "6.0.2",
     "@vitest/browser-playwright": "latest",
-    "chromatic": "^17",
+    "chromatic": "18.7.3",
     "playwright": "1.61.0",
     "react": "19.2.7",
     "react-dom": "19.2.7",
@@ -31,5 +30,6 @@
     "vite": "^8",
     "vitest": "latest",
     "vitest-browser-react": "2.1.0"
-  }
+  },
+  "packageManager": "pnpm@10.33.4"
 }
